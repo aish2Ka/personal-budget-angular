@@ -32,9 +32,9 @@
         <h2>A personal-budget management app</h2>
     </header>
 
-    <div class="center">
+    <main class="center" id="main">
 
-        <main class="page-area"> <!--semantic change 4-->
+        <div class="page-area">
 
             <article>
                 <h1>Stay on track</h1>
@@ -63,7 +63,7 @@
     
             <article>
                 <h1>Free</h1>
-                <p>
+                <p role="status"><!--change 2 A11y-->
                     This app is free!!! And you are the only one holding your data!
                 </p>
             </article>
@@ -100,12 +100,13 @@
                 </p>
             </article>
 
-        </main>
+        </div>
 
-    </div>
+    </main>
 
     <footer class="bottom">
-        <div class="center">
+        <!-- change 3 A11y-->
+        <div aria-label ="Copyrights" class="center">
             All rights reserved &copy; Fabio Nolasco
         </div>
     </footer>
