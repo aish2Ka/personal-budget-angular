@@ -3,33 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Budget</title>
-    <meta name="description" content="A free personal budger app">
+    <!--Change 1 SEO-->
+    <title>Personal Budget - A Guide to Budget Tracking and Savings</title>
+    <!-- Change 2 SEO-->
+    <meta name="description" content="Track income, expenses, and savings to achieve your financial goals efficiently">
     <meta name="keywords" content="app free budget finance">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="/pb/public/reset.css">
+    <link rel="stylesheet" href="/pb/public/main.css">
 </head>
 <body>
 
 <a href="#main" class="skip">Skip to content</a>
 
-    <nav>
+<nav class="menu" role="navigation"> <!-- semantic change 1-->
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/login.html">Login</a></li>
-            <li><a href="https://google.com">Google</a></li>
+            <!-- change 1 A11y-->
+            <li><a href="/pb/public">Homepage</a></li>
+            <li><a href="/pb/public/about.html">About</a></li>
+            <li><a href="/pb/public/login.html">Login</a></li>
+            <!--change 3 seo-->
+            <li><a href="https://google.com" tabindex="4" target="_blank">Google</a></li><!--semantic change 2-->
         </ul>
     </nav>
 
-    <div class="hero">
+    <header class="hero" role="banner"><!--semantic change 3-->
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
-    </div>
+    </header>
 
-    <main class="center" id="main">
+    <div class="center">
 
-        <div class="page-area">
+        <main class="page-area"> <!--semantic change 4-->
 
             <article>
                 <h1>Stay on track</h1>
@@ -95,9 +100,9 @@
                 </p>
             </article>
 
-        </div>
+        </main>
 
-    </main>
+    </div>
 
     <footer class="bottom">
         <div class="center">
