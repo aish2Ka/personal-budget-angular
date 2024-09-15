@@ -21,16 +21,17 @@
             "budget": 200
         },
         {
+            "title": "Donation",
+            "budget": 10
+        },
+        {
             "title": "Movies",
             "budget": 30
         },
         {
             "title": "Savings",
             "budget": 40
-        },
-        {
-            "title": "Donation",
-            "budget": 10
         }
+       
     ]
 }

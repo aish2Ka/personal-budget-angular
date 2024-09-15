@@ -73,6 +73,17 @@ main {
     display: inline-block;
 }
 
+.page-area-charts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page-area-charts article {
+    width: 45%;
+    margin: 0;
+}
+
 footer {
     height: 50px;
     background-color: #b4c6f0;
