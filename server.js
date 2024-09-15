@@ -1,14 +1,18 @@
-// Budget API
-
 const express = require('express');
 const cors = require('cors');
 const app = express();
 const port = 3000;
 
+app.use('/', express.static('public'));
+
 app.use(cors());
 
+app.get('/hello', (req, res) => {
+    res.send('Hello World!, This is Aishwarya');
+});
+
 const budget = {
-    myBudget: [
+    Aishwarya_Budget: [
         {
             title: 'Eat out',
             budget: 25
@@ -30,5 +34,5 @@ app.get('/budget', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`API served at http://localhost:${port}`);
+    console.log(`Budget API is listening at: http://localhost:${port}`);
 });
