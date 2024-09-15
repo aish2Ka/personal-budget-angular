@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const budget_data = require('./budget_data.json');
 const app = express();
 const port = 3000;
 
@@ -11,26 +12,8 @@ app.get('/hello', (req, res) => {
     res.send('Hello World!, This is Aishwarya');
 });
 
-const budget = {
-    Aishwarya_Budget: [
-        {
-            title: 'Eat out',
-            budget: 25
-        },
-        {
-            title: 'Rent',
-            budget: 275
-        },
-        {
-            title: 'Grocery',
-            budget: 110
-        },
-    ]
-};
-
-
 app.get('/budget', (req, res) => {
-    res.json(budget);
+    res.json(budget_data);
 });
 
 app.listen(port, () => {

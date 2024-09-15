@@ -1,0 +1,36 @@
+{
+    "Aishwarya_Budget": [
+        {
+            "title": "Eat out",
+            "budget": 25
+        },
+        {
+            "title": "Rent",
+            "budget": 275
+        },
+        {
+            "title": "Grocery",
+            "budget": 110
+        },
+        {
+            "title": "Medical",
+            "budget": 50
+        },
+        {
+            "title": "Education",
+            "budget": 200
+        },
+        {
+            "title": "Movies",
+            "budget": 30
+        },
+        {
+            "title": "Savings",
+            "budget": 40
+        },
+        {
+            "title": "Donation",
+            "budget": 10
+        }
+    ]
+}
